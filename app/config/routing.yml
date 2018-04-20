@@ -1,3 +1,8 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+epfc_reservations:
+    resource: "@EPFCReservationsBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+#app:
+#    resource: '@AppBundle/Controller/'
+#    type: annotation
